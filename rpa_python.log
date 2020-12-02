@@ -1,57 +1,39 @@
 
-START - automation started - Sun Nov 29 2020 19:38:24 GMT+0100 (CET)
+START - automation started - Wed Dec 02 2020 08:25:51 GMT+0100 (CET)
 
 LIVE MODE - type done to quit
  [RPA][STARTED]
 [RPA][0] - listening for inputs
 [RPA][1] - https://office.com
 [RPA][1] - listening for inputs
-[RPA][2] - exist_result = exist('Outlook').toString()
+[RPA][2] - exist_result = exist('chrome_icon.png').toString()
 [RPA][2] - listening for inputs
 [RPA][3] - dump exist_result to rpa_python.txt
 [RPA][3] - listening for inputs
-[RPA][4] - click Outlook
+[RPA][4] - click chrome_icon.png
 [RPA][4] - listening for inputs
-[RPA][5] - exist_result = exist('pulse_secure_icon.png').toString()
+[RPA][5] - https://universossiete.tesa/BOE/BI
 [RPA][5] - listening for inputs
-[RPA][6] - dump exist_result to rpa_python.txt
+[RPA][6] - keyboard [ctrl][tab]
 [RPA][6] - listening for inputs
-[RPA][7] - click pulse_secure_icon.png
+[RPA][7] - exist_result = exist('chrome_icon.png').toString()
 [RPA][7] - listening for inputs
-[RPA][8] - exist_result = exist('ps_connect_icon.png').toString()
+[RPA][8] - dump exist_result to rpa_python.txt
 [RPA][8] - listening for inputs
-[RPA][9] - dump exist_result to rpa_python.txt
+[RPA][9] - click chrome_icon.png
 [RPA][9] - listening for inputs
-[RPA][10] - click ps_connect_icon.png
+[RPA][10] - https://universossiete.tesa/BOE/BI
 [RPA][10] - listening for inputs
-[RPA][11] - type (628,320) as UT00973
+[RPA][11] - keyboard [ctrl][tab]
 [RPA][11] - listening for inputs
-[RPA][12] - keyboard [tab]
+[RPA][12] - type (663,386) as 6767Vara
 [RPA][12] - listening for inputs
-[RPA][13] - keyboard 6565Vara
+[RPA][13] - keyboard [enter]
 [RPA][13] - listening for inputs
-[RPA][14] - keyboard [enter]
+[RPA][14] - type (663,386) as 6767Vara
 [RPA][14] - listening for inputs
-[RPA][15] - exist_result = exist('chrome_icon.png').toString()
+[RPA][15] - keyboard [enter]
 [RPA][15] - listening for inputs
-[RPA][16] - dump exist_result to rpa_python.txt
+[RPA][16] - click (354,219)
 [RPA][16] - listening for inputs
-[RPA][17] - click chrome_icon.png
-[RPA][17] - listening for inputs
-[RPA][18] - click (575,276)
-[RPA][18] - listening for inputs
-[RPA][19] - snap (830,500)-(1030,550) to 2nd-factor.png
-[RPA][19] - listening for inputs
-[RPA][20] - keyboard [alt][tab]
-[RPA][20] - listening for inputs
-[RPA][21] - keyboard 421404
-[RPA][21] - listening for inputs
-[RPA][22] - keyboard [enter]
-[RPA][22] - listening for inputs
-[RPA][23] - https://universossiete.tesa/BOE/BI
-[RPA][23] - listening for inputs
-[RPA][FINISHED]
-
-chrome-error://chromewebdata/ - universossiete.tesa
-FINISH - automation finished - 111.1s
-
+[RPA][17] - exist_result = exist('bo_update_icon.png').toString()
